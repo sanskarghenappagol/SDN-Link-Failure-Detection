@@ -108,7 +108,7 @@ sudo mn -c
 
 **Step 1 — Clone this repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/sdn-link-failure.git
+git clone https://github.com/sanskarghenappagol/sdn-link-failure.git
 cd sdn-link-failure
 ```
 
