@@ -137,11 +137,17 @@ mininet> net
 mininet> nodes
 ```
 
+<img width="601" height="221" alt="one" src="https://github.com/user-attachments/assets/720d3ff2-74ca-45dc-b4e4-b377d8b7817a" />
+
+
 ### 2️⃣ Test baseline connectivity (all links UP)
 ```
 mininet> pingall
 ```
 Expected: `0% dropped (12/12 received)`
+
+<img width="509" height="131" alt="two" src="https://github.com/user-attachments/assets/d6455c3c-0cc4-4ec5-8f90-8d7977d224d9" />
+
 
 ### 3️⃣ Simulate link failure
 ```
@@ -154,11 +160,17 @@ mininet> pingall
 ```
 Expected: partial drops — h1 affected, others reroute
 
+<img width="456" height="145" alt="three" src="https://github.com/user-attachments/assets/292ce3e9-e600-4704-bd4f-d0366c2faac3" />
+
+
 ### 5️⃣ Check flow rules on switches
 ```
 mininet> sh ovs-ofctl dump-flows s1
 mininet> sh ovs-ofctl dump-flows s2
 ```
+
+<img width="922" height="95" alt="four" src="https://github.com/user-attachments/assets/1f6d2f03-e076-40d2-abf1-87e9341d877c" />
+
 
 ### 6️⃣ Restore the link (recovery)
 ```
@@ -171,10 +183,16 @@ mininet> pingall
 ```
 Expected: `0% dropped (12/12 received)`
 
+<img width="434" height="149" alt="five" src="https://github.com/user-attachments/assets/3cb27f8f-008a-4273-a4b5-94bda3a94601" />
+
+
 ### 8️⃣ Exit
 ```
 mininet> exit
 ```
+
+<img width="466" height="197" alt="six" src="https://github.com/user-attachments/assets/89ea3d03-5e58-4e70-a448-d6df17b218e6" />
+
 
 ---
 
@@ -247,8 +265,8 @@ When `link s1 s2 up` is run:
 ## 👤 Author
 
 **Sanskar**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- University SDN Lab Project — 2026
+- GitHub: [@sanskarghenappagol](https://github.com/YOUR_USERNAME)
+- SDN Lab Project — 2026
 
 ---
 
