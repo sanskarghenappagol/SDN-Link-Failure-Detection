@@ -33,7 +33,6 @@ When a link (cable) between two switches fails:
 - Traffic is **rerouted** through alternate paths
 - When the link is **restored**, full connectivity recovers automatically
 
-> This project was built as part of an SDN lab assignment worth **10 marks**.
 
 ---
 
